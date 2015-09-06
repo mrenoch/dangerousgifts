@@ -1,0 +1,32 @@
+*~
+
+# these source files are in markdown, managed by scrivner
+content/chapter*.tex
+content/references.tex
+
+# latex artifacts
+*.aux
+*.glo
+*.idx
+*.log
+*.toc
+*.ist
+*.acn
+*.acr
+*.alg
+*.bbl
+*.blg
+*.dvi
+*.glg
+*.gls
+*.ilg
+*.ind
+*.lof
+*.lot
+*.maf
+*.mtc
+*.mtc1
+*.out
+*.bib
+*.xml
+*.synctex.gz
