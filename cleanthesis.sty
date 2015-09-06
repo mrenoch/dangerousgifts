@@ -304,10 +304,12 @@
 % Text Format
 % **************************************************
 \setstretch{2}					% value for line spacing, use \setstretch{} or \singlespacing or \onehalfspacing or \doublespacing
-\setlength{\parindent}{0em}			% value for paragraph indentation
+\setlength{\parindent}{2em}			% value for paragraph indentation
 \clubpenalty = 10000				% prevent single lines at the beginning of a paragraph (Schusterjungen)
 \widowpenalty = 10000				% prevent single lines at the end of a paragraph (Hurenkinder)
 \displaywidowpenalty = 10000		%
+\expandafter\def\expandafter\quote\expandafter{\quote\small\onehalfspacing}
+
 
 % **************************************************
 % List Definitions
@@ -561,8 +563,11 @@
 	{\ctformatchapter}%
 	[\phantomsection]
 %
+% use the * version of titlespacing to skip the indent after section
+% http://tex.stackexchange.com/questions/113966/getting-back-the-paragraph-in-cleanthesis
+
 % > formats: \section
-\titlespacing{\section}{0em}{.75em}{.2em}%[0pt]
+\titlespacing*{\section}{0em}{.75em}{.2em}%[0pt]
 %\ifthenelse{\boolean{@sectionlabeloutside}}%
 \ifct@cthesis@hangsection
 %	{%
@@ -584,7 +589,7 @@
 \fi
 %
 % > formats: \subsection
-\titlespacing{\subsection}{0em}{.5em}{0em}%[0pt]
+\titlespacing*{\subsection}{0em}{.5em}{0em}%[0pt]
 %\ifthenelse{\boolean{@subsectionlabeloutside}}%
 \ifct@cthesis@hangsubsection
 %	{%
