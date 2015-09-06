@@ -1,4 +1,4 @@
-\chapter{APA 2012: Oppositionally defiant protestors and the radical caucus}\label{chapter-four}
+\chapter{APA 2012: Oppositionally defiant protestors}\label{chapter-four}
 
 \cleanchapterquote{The most intense conflicts, if overcome, leave behind a sense of security and calm that is not easily disturbed. It is just these intense conflicts and their conflagration which are needed to produce valuable and lasting results.}{Carl Jung}{Some Book} 
 

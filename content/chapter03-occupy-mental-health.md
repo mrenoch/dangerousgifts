@@ -248,9 +248,9 @@ Contributor03 replied, thanking Contributor07 for his/her thoughtful reply. He/s
 
 > _>>> What kind of clarifying statements or_ _disclaimers do you think we should add?_
 
-I really like the existing disclaimer. I believe is also important to acknowledge upfront that this document does not reflect the perspective of all Occupy participants. And that there is an active debate on the ground about how to best provide emotional support to protesters.
+> I really like the existing disclaimer. I believe is also important to acknowledge upfront that this document does not reflect the perspective of all Occupy participants. And that there is an active debate on the ground about how to best provide emotional support to protesters.
 
-_>>>_ _How can you imagine us engaging and incorporating mainstream perspectives_ _into our work?_
+> _>>>_ _How can you imagine us engaging and incorporating mainstream perspectives_ _into our work?_
 
 > My previous comments were unclear, but my intent was not that you validate mainstream \*perspectives\*... those ideas have plenty of exposure, but that you validate mainstream \*people\*. That you recognize that there many people who work in mainstream mental health settings --some of whom are involved with Occupy---who are deeply committed to anti-oppressive practices, who are also end users of mental health care, who are also traumatized by working in profoundly unjust and under-resourced systems, and whose' goal is give to hope and support to very people most victimized by those systems. Yes we're cogs in a highly flawed system, but we can also be potential allies in any systemic change. Currently, this document ignores us, which I fear could result in further division instead of community building (2011b).
 

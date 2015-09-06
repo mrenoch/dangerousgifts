@@ -24,28 +24,38 @@
 % **************************************************
 % Information and Commands for Reuse
 % **************************************************
-\newcommand{\thesisTitle}{Dangerous Gifts: Towards a new wave of mad resistance}
+\newcommand{\thesisTitle}{Dangerous Gifts}
+\newcommand{\thesisSubtitle}{Towards a New Wave of Mad Resistance}
 \newcommand{\thesisName}{Jonah Bossewitch}
-\newcommand{\thesisSubject}{Towards a new wave of psychiatric resistance}
-\newcommand{\thesisDate}{September, 2015}
+\newcommand{\thesisSubject}{Communications}
+\newcommand{\thesisDate}{September 4, 2015}
+\newcommand{\thesisYear}{2015}
 \newcommand{\thesisVersion}{Distirbution Copy}
 
-\newcommand{\thesisFirstReviewer}{Jane Doe}
-\newcommand{\thesisFirstReviewerUniversity}{\protect{Clean Thesis Style University}}
-\newcommand{\thesisFirstReviewerDepartment}{Department of Clean Thesis Style}
+\newcommand{\thesisFirstSupervisor}{Todd Gitlin}
+\newcommand{\thesisFirstSupervisorUniversity}{\protect{\thesisUniversity}}
+\newcommand{\thesisFirstSupervisorDepartment}{\thesisUniversityDepartment}
 
-\newcommand{\thesisSecondReviewer}{John Doe}
-\newcommand{\thesisSecondReviewerUniversity}{\protect{Clean Thesis Style University}}
-\newcommand{\thesisSecondReviewerDepartment}{Department of Clean Thesis Style}
+\newcommand{\thesisFirstReader}{Michael Schudson}
+\newcommand{\thesisFirstReaderUniversity}{\protect{\thesisUniversity}}
+\newcommand{\thesisFirstReaderDepartment}{\thesisUniversityDepartment}
 
-\newcommand{\thesisFirstSupervisor}{Jane Doe}
-\newcommand{\thesisSecondSupervisor}{John Smith}
+\newcommand{\thesisSecondReader}{Diane Vaughan}
+\newcommand{\thesisSecondReaderUniversity}{\protect{\thesisUniversity}}
+\newcommand{\thesisSecondReaderDepartment}{Sociology}
 
-\newcommand{\thesisUniversity}{\protect{Clean Thesis Style University}}
-\newcommand{\thesisUniversityDepartment}{Department of Clean Thesis Style}
-\newcommand{\thesisUniversityInstitute}{Institut for Clean Thesis Dev}
-\newcommand{\thesisUniversityGroup}{Clean Thesis Group (CTG)}
-\newcommand{\thesisUniversityCity}{City}
+\newcommand{\thesisThirdReader}{Sayanatani DasGupta}
+\newcommand{\thesisThirdReaderUniversity}{\protect{\thesisUniversity}}
+\newcommand{\thesisThirdReaderDepartment}{Narrative Medicine}
+
+\newcommand{\thesisFourthReader}{Jack Bratich}
+\newcommand{\thesisFourthReaderUniversity}{\protect{Rutgers University}}
+\newcommand{\thesisFourthReaderDepartment}{Journalism and Media Studies}
+
+\newcommand{\thesisUniversity}{\protect{Columbia University}}
+\newcommand{\thesisUniversityDepartment}{Communications}
+\newcommand{\thesisUniversitySchool}{Graduate School of Journalism}
+\newcommand{\thesisUniversityCity}{New York City}
 \newcommand{\thesisUniversityStreetAddress}{Street address}
 \newcommand{\thesisUniversityPostalCode}{Postal Code}
 
@@ -85,6 +95,8 @@
 % **************************************************
 \begin{document}
 
+% set graphics path
+\graphicspath{ {images/} }
 % --------------------------
 % rename document parts
 % --------------------------
@@ -97,21 +109,35 @@
 % Front matter/
 % --------------------------
 \setstretch{1.2}
-\pagenumbering{roman}			% roman page numbing (invisible for empty page style)
 \pagestyle{empty}				% no header or footers
 \input{content/titlepages}		% INCLUDE: all titlepages
 \cleardoublepage
 
-\pagestyle{plain}				% display just page numbers
+\pagestyle{empty}				% display just page numbers
+\input{content/copyright}		% INCLUDE: the abstracts (english and german)
+\cleardoublepage
+
+\pagestyle{empty}				% display just page numbers
 \input{content/abstract}		% INCLUDE: the abstracts (english and german)
 \cleardoublepage
+
+% --------------------------
+% Prefatory Pages/
+% --------------------------
+\pagenumbering{roman}			% roman page numbing (invisible for empty page style)
+\setcounter{page}{1}			% set page counter
+
+\setcounter{tocdepth}{2}		% define depth of toc
+\tableofcontents				% display table of contents
+\cleardoublepage
+
 %
 \input{content/acknowledgement} % INCLUDE: acknowledgement
 \cleardoublepage
 %
-\setcounter{tocdepth}{2}		% define depth of toc
-\tableofcontents				% display table of contents
+\input{content/dedication} % INCLUDE: acknowledgement
 \cleardoublepage
+%
 
 % --------------------------
 % Body matter
@@ -126,6 +152,7 @@
 \input{content/chapter02-counterfactual-cures} 
 \input{content/chapter03-occupy-mental-health}
 \input{content/chapter04-apa2012} 
+\input{content/chapter05-you-are-not-alone} 
 \input{content/chapter06-conclusion} 
 \cleardoublepage
 
@@ -145,17 +172,20 @@
 \renewcommand{\bibfont}{\normalfont\small}
 \setlength{\biblabelsep}{0pt}
 \setlength{\bibitemsep}{0.5\baselineskip plus 0.5\baselineskip}
+\def\bibindent{1em}
+\begin{thebibliography}{99\kern\bibindent}
+\makeatletter
+\def\@biblabel#1{}
+\let\old@bibitem\bibitem
+\def\bibitem#1{\old@bibitem{#1}\leavevmode\kern-\bibindent}
+\makeatother
 \input{content/references} 
+\end{thebibliography}
 %\printbibliography[nottype=online]
 %\printbibliography[heading=subbibliography,title={Webseiten},type=online,prefixnumbers={@}]
 }
 \cleardoublepage
 
-\listoffigures
-\cleardoublepage
-
-\listoftables
-\cleardoublepage
 
 \input{content/colophon}
 \cleardoublepage
