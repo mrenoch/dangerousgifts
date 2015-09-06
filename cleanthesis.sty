@@ -254,20 +254,20 @@
 \fi
 %
 \RequirePackage[					% page layout modifications
-	paper=a4paper,					% 	- use A4 paper size
+	paper=letterpaper,				% 	- use letterpaper size
 	%scale={0.86,0.94},				% 	- total body size (h,v)
 	%scale={0.86,0.94},				% 	- total body size (h,v)
 	nohead,							% 	- no header
 	includefoot,					% 	- include footer space
 	includemp,						% 	- include side note space
 	bindingoffset=0.5cm,			% 	- binding correction
-	top=2.25cm,						% 	- total body: top margin
-	left=3.75cm,					% 	- total body: left margin (odd pages)
-	right=0.75cm,					% 	- total body: right margin (odd pages)
-	bottom=1.5cm,					% 	- total body: bottom margin
+	top=1.5in,						% 	- total body: top margin
+	left=1in,					% 	- total body: left margin (odd pages)
+	right=1in,					% 	- total body: right margin (odd pages)
+	bottom=0.4in,					% 	- total body: bottom margin
 	marginparwidth=1.75cm,			% 	- width for side note
 	marginparsep=10pt,				% 	- space between notes and body text (content)
-	footskip=2cm,					% 	- footer skip size
+	footskip=0.6in,					% 	- footer skip size
 ]{geometry}
 %
 \RequirePackage[					% advanced quotes
@@ -303,7 +303,7 @@
 % **************************************************
 % Text Format
 % **************************************************
-\setstretch{1.2}					% value for line spacing, use \setstretch{} or \singlespacing or \onehalfspacing or \doublespacing
+\setstretch{2}					% value for line spacing, use \setstretch{} or \singlespacing or \onehalfspacing or \doublespacing
 \setlength{\parindent}{0em}			% value for paragraph indentation
 \clubpenalty = 10000				% prevent single lines at the beginning of a paragraph (Schusterjungen)
 \widowpenalty = 10000				% prevent single lines at the end of a paragraph (Hurenkinder)
@@ -359,32 +359,32 @@
 \renewcommand{\chaptermark}[1]{%
 	\markboth{%
 		\footnotesize%
-		{\color{ctcolorfootermark}\textbf{\chaptername\ \thechapter}}%
+%		{\color{ctcolorfootermark}\textbf{\chaptername\ \thechapter}}%
 		\quad%
-		{\color{ctcolorfootertitle}#1}%
+		{\color{ctcolorfootertitle}}%
 	}{}%
 }
 \renewcommand{\sectionmark}[1]{%
 	\markright{%
 		\footnotesize%
-		{\color{ctcolorfootermark}\textbf{\thesection}}%
+%		{\color{ctcolorfootermark}\textbf{\thesection}}%
 		\quad%
-		{\color{ctcolorfootertitle}#1}%
+		{\color{ctcolorfootertitle}}%
 	}%
 }
 %
 \fancypagestyle{plain}{%
 	\fancyhf{}
 	\fancyfootoffset[OR]{1.85cm}
-	\fancyfoot[OR]{%
+	\fancyfoot[CO]{%
 		{\ }\tgherosfont%
 		{\color{ctcolorfooterline}\rule[-90pt]{1.25pt}{100pt}}%
 		\hspace*{10pt}\begin{minipage}[b]{1.5cm}%
 			\color{ctcolorfooterpage}\normalsize\textbf{\thepage}%
 		\end{minipage}%
 	}
-	\fancyfootoffset[EL]{1.85cm}
-	\fancyfoot[EL]{%
+	\fancyfootoffset[ER]{1.85cm}
+	\fancyfoot[CE]{%
 		\tgherosfont%
 		\begin{minipage}[b]{1.5cm}%
 			\raggedleft\color{ctcolorfooterpage}\normalsize\textbf{\thepage}%
@@ -399,7 +399,7 @@
 	\pagestyle{plain}
 	\fancyhf{}
 	\fancyfootoffset[OR]{1.85cm}
-	\fancyfoot[OR]{%
+	\fancyfoot[CO]{%
 		{\ }\tgherosfont\footnotesize%
 		\rightmark%
 		\hspace*{0.75cm}{\color{ctcolorfooterline}\rule[-90pt]{1.25pt}{100pt}}%
@@ -407,8 +407,8 @@
 			\color{ctcolorfooterpage}\normalsize\textbf{\thepage}%
 		\end{minipage}%
 	}
-	\fancyfootoffset[EL]{1.85cm}
-	\fancyfoot[EL]{%
+	\fancyfootoffset[ER]{1.85cm}
+	\fancyfoot[CE]{%
 		\tgherosfont\footnotesize%
 		\begin{minipage}[b]{1.5cm}%
 			\raggedleft\color{ctcolorfooterpage}\normalsize\textbf{\thepage}%
@@ -641,15 +641,17 @@
 %
 % Clean chapter quotations
 \newcommand{\hugequote}{%
+	\setstretch{1.2}%
 	{\book\fontsize{75}{80}\selectfont%
 	\hspace*{-.475em}\color{ctcolorgraylight}%
 	\textit{\glqq}%
 	\vskip -.26em}%
 }
 \newcommand{\cleanchapterquote}[3]{%
+	\setstretch{1.2}%
 	\begin{minipage}{.865\textwidth}%
 		\begin{flushright}
-			\begin{minipage}{.65\textwidth}%
+			\begin{minipage}{.85\textwidth}%
 				\begin{flushleft}
 					{\hugequote}\textit{#1}
 				\end{flushleft}
@@ -661,6 +663,7 @@
 		\end{flushright}
 	\end{minipage}%
 	\bigskip
+	\setstretch{2}%
 }
 %
 % Clean Quotation environment

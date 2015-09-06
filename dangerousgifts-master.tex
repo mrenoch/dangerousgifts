@@ -2,12 +2,12 @@
 % Document Class Definition
 % **************************************************
 \documentclass[%
-	paper=A4,					% paper size --> A4 is default in Germany
-	twoside=true,				% onesite or twoside printing
+	paper=letterpaper,			% paper size --> letterpaper is default in US
+	twoside=false,				% onesite or twoside printing
 	openright,					% doublepage cleaning ends up right side
 	parskip=full,				% spacing value / method for paragraphs
 	chapterprefix=true,			% prefix for chapter marks
-	11pt,						% font size
+	12pt,						% font size
 	headings=normal,			% size of headings
 	bibliography=totoc,			% include bib in toc
 	listof=totoc,				% include listof entries in toc
@@ -60,7 +60,7 @@
 	hangfigurecaption=false,%
 	hangsection=true,%
 	hangsubsection=true,%
-	colorize=full,%
+	colorize=bw,%
 	colortheme=bluemagenta,%
 	bibsys=bibtex,%
 	bibfile=bib-refs,%
@@ -95,6 +95,7 @@
 % --------------------------
 % Front matter/
 % --------------------------
+\setstretch{1.2}
 \pagenumbering{roman}			% roman page numbing (invisible for empty page style)
 \pagestyle{empty}				% no header or footers
 \input{content/titlepages}		% INCLUDE: all titlepages
@@ -114,6 +115,7 @@
 % --------------------------
 % Body matter
 % --------------------------
+\setstretch{2}
 \pagenumbering{arabic}			% arabic page numbering
 \setcounter{page}{1}			% set page counter
 \pagestyle{maincontentstyle} 	% fancy header and footer
