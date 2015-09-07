@@ -5,3 +5,4 @@
 * Add title (chpat title?) to footer
 * sub-subsection apa chapter?
 * fix case on subsections
+* Add epiteths to biblio
