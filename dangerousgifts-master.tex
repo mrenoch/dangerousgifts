@@ -30,7 +30,7 @@
 \newcommand{\thesisSubject}{Communications}
 \newcommand{\thesisDate}{September 4, 2015}
 \newcommand{\thesisYear}{2015}
-\newcommand{\thesisVersion}{Distirbution Copy}
+\newcommand{\thesisVersion}{Distribution Copy}
 
 \newcommand{\thesisFirstSupervisor}{Todd Gitlin}
 \newcommand{\thesisFirstSupervisorUniversity}{\protect{\thesisUniversity}}
@@ -68,8 +68,8 @@
 	figuresep=colon,%
 	sansserif=false,%
 	hangfigurecaption=false,%
-	hangsection=true,%
-	hangsubsection=true,%
+	hangsection=false,%
+	hangsubsection=false,%
 	colorize=bw,%
 	colortheme=bluemagenta,%
 	bibsys=bibtex,%
@@ -89,6 +89,16 @@
 	bookmarksnumbered=true,		%
 	bookmarksopen=true			%
 }
+
+% make sure TOC header is normal
+% http://tex.stackexchange.com/questions/35903/formatting-the-title-of-the-toc
+%\begingroup
+%	\renewcaptionname{english}\contentsname{\color{ctcolorblack}\huge \fontfamily{phv}\selectfont{Summary3}}
+%\endgroup 
+
+
+%\renewcommand*\contentsname{Summary}
+%\renewcommand{\cftchappagefont}{\normalfont}
 
 % **************************************************
 % Document CONTENT
@@ -112,12 +122,10 @@
 \pagestyle{empty}				% no header or footers
 \input{content/titlepages}		% INCLUDE: all titlepages
 \cleardoublepage
-
-\pagestyle{empty}				% display just page numbers
+				
 \input{content/copyright}		% INCLUDE: the abstracts (english and german)
 \cleardoublepage
 
-\pagestyle{empty}				% display just page numbers
 \input{content/abstract}		% INCLUDE: the abstracts (english and german)
 \cleardoublepage
 
@@ -126,6 +134,7 @@
 % --------------------------
 \pagenumbering{roman}			% roman page numbing (invisible for empty page style)
 \setcounter{page}{1}			% set page counter
+\pagestyle{plain} 
 
 \setcounter{tocdepth}{2}		% define depth of toc
 \tableofcontents				% display table of contents
@@ -142,18 +151,21 @@
 % --------------------------
 % Body matter
 % --------------------------
-\setstretch{2}
 \pagenumbering{arabic}			% arabic page numbering
 \setcounter{page}{1}			% set page counter
 \pagestyle{maincontentstyle} 	% fancy header and footer
 
 % INCLUDE my chapters
-\input{content/chapter01-introduction} 
-\input{content/chapter02-counterfactual-cures} 
-\input{content/chapter03-occupy-mental-health}
-\input{content/chapter04-apa2012} 
-\input{content/chapter05-you-are-not-alone} 
-\input{content/chapter06-conclusion} 
+% all chapters, NOT references
+\input{content/all-chapters} 
+
+% each chapter, one at a timee
+%\input{content/chapter01-introduction} 
+%\input{content/chapter02-counterfactual-cures} 
+%\input{content/chapter03-occupy-mental-health}
+%\input{content/chapter04-apa2012} 
+%\input{content/chapter05-you-are-not-alone} 
+%\input{content/chapter06-conclusion} 
 \cleardoublepage
 
 % --------------------------
@@ -168,18 +180,23 @@
 \renewcommand\@biblabel[1]{}
 \makeatother
 
+% set urlfont - http://tex.stackexchange.com/questions/53962/why-are-urls-typeset-with-monospace-fonts-by-default
+\urlstyle{same}
+
 \setstretch{1.1}
 \renewcommand{\bibfont}{\normalfont\small}
 \setlength{\biblabelsep}{0pt}
 \setlength{\bibitemsep}{0.5\baselineskip plus 0.5\baselineskip}
 \def\bibindent{1em}
 \begin{thebibliography}{99\kern\bibindent}
-\makeatletter
-\def\@biblabel#1{}
-\let\old@bibitem\bibitem
-\def\bibitem#1{\old@bibitem{#1}\leavevmode\kern-\bibindent}
-\makeatother
-\input{content/references} 
+	\makeatletter
+	\def\@biblabel#1{}
+	\let\old@bibitem\bibitem
+	\def\bibitem#1{\old@bibitem{#1}\leavevmode\kern-\bibindent}
+	\makeatother
+
+	\input{content/references} 
+
 \end{thebibliography}
 %\printbibliography[nottype=online]
 %\printbibliography[heading=subbibliography,title={Webseiten},type=online,prefixnumbers={@}]
