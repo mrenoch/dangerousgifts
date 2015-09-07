@@ -1,11 +1,3 @@
-\def\bibindent{1em}
-\begin{thebibliography}{999\kern\bibindent}
-\makeatletter
-\def\@biblabel#1{}
-\let\old@bibitem\bibitem
-\def\bibitem#1{\old@bibitem{#1}\leavevmode\kern-\bibindent}
-\makeatother
-
 \bibitem{}
 Activist Trauma Support. (n.d.). Retrieved July 19, 2015, from \url{https://www.activist-trauma.net/}.
 
@@ -461,6 +453,9 @@ Hall, W. (2008). "First Aid for Emotional Trauma - handout". Retrieved July 19, 
 \url{http://www.theicarusproject.net/alternative-treatments/first-aid-for-emotional-trauma-handout}
 
 \bibitem{}
+Halperin, D. (1995). _Saint Foucault: Towards a Gay Hagiography_ (1 edition). New York: Oxford University Press.
+
+\bibitem{}
 Hanisch, Dale. (1969). In Sulamith Firestone and Anne Koedt. Notes From the Second Year: Women's 
 Liberation: Major Writings of the Radical Feminists. New York : Pamphlet, 1970. Available at 
 	\url{http://www.carolhanisch.org/CHwritings/PIP.html} (accessed June 18, 2015).
@@ -587,7 +582,7 @@ organizing and online communication." In B. Commaerts et. al. (eds), Mediation a
 Movements. Briston: Intellect Books (pp. 77-94).
 
 \bibitem{}
-Keller, M. B., Ryan, N. D., Strober, M., Klein, R. G., Kutcher, S. P., Birmaher, B., ... McCafferty, J. P. 
+Keller, M. B., Ryan, N.D., Strober, M., Klein, R. G., Kutcher, S. P., Birmaher, B., ... McCafferty, J. P. 
 (2001). Efficacy of paroxetine in the treatment of adolescent major depression: a randomized, controlled trial. Journal of the American Academy of Child and Adolescent Psychiatry, 40(7), 762-772. \url{http://doi.org/10.1097/00004583-200107000-00010}
 
 \bibitem{}
@@ -800,7 +795,7 @@ Morrison, Linda. (2005) Talking Back to Psychiatry: The Psychiatric Consumer/Sur
 Marrison, Linda. (2006) Radical Psychology: A Journal of Psychology, Politics and Radicalism, Vol. 5. Available at: \url{http://www.radpsynet.org/journal/vol5/Morrison.html}.
 
 \bibitem{}
-Mosher, L. R. (1999). "Soteria and Other Alternatives to Acute Psychiatric Hospitalization A Personal and Professional Review." \emph{The Journal of Nervous and Mental Disease}. 187:142-149.
+Mosher, L. R. (1999). "Soteria and Other Alternatives to Acute Psychiatric Hospitalizaton: A Personal and Professional Review." \emph{The Journal of Nervous and Mental Disease}. 187:142-149.
 
 \bibitem{}
 Mundy, A. (2008). "Risperdal Can Have Troubling Side Effects in Boys." Wall Street Journal, November 25. \url{http://blogs.wsj.com/health/2008/11/25/risperdal-can-have-troubling-side-effects-in-boys} (accessed July 31, 2011).
@@ -1231,6 +1226,3 @@ Collaborative Futures: A Book About the Future of Collaboration, Written Collabo
 \bibitem{}
 Zuvekas, S. H. (2005). Prescription Drugs And The Changing Patterns Of Treatment For Mental 
 Disorders, 1996-2001. Health Affairs, 24(1), 195-205. \url{http://doi.org/10.1377/hlthaff.24.1.195}
-
-
-\end{thebibliography}

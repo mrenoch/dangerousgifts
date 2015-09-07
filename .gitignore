@@ -2,6 +2,7 @@
 
 # these source files are in markdown, managed by scrivner
 content/chapter*.tex
+content/all-chapters.tex
 content/references.tex
 
 # latex artifacts

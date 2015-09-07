@@ -245,6 +245,8 @@
 	labelsep=\cthesis@figuresep,				% 	- separator: none, colon, period, space, quad, newline, endash
 	singlelinecheck=false			% 	- no centered single-lined captions
 ]{caption}[2008/08/24]
+
+\RequirePackage[normalem]{ulem}    % for strikethrough, with \sout
 %\ifthenelse{\boolean{@figurecaptionoutside}}%
 \ifct@cthesis@hangfigurecaption
 %	{%
@@ -687,5 +689,26 @@
 % Clean signs around word origins in definitions
 %\newcommand{\cthesisorigin}[1]{\textsf{\textlangle}#1\textsf{\textrangle}}
 
+%
+% Crooked beauty image inclusion
+%
 
+\RequirePackage{float} % To allow forced placement, 'H'
 
+\newcommand{\crookedimage}[1]{%
+	\begin{figure}[H]%
+	\centering%
+	\includegraphics[width=0.5\textwidth]{#1}%
+	\end{figure}%
+}
+
+\newcommand{\crookedimagepair}[2]{%
+	\begin{figure}[H]%
+	\centering%
+	\setlength{\tabcolsep}{0pt}%
+		\begin{tabular}{ c c }%
+			\includegraphics[width=0.45\textwidth]{#1} &%
+			\includegraphics[width=0.45\textwidth]{#2}%
+		\end{tabular}%
+	\end{figure}%
+}
