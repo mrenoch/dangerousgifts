@@ -1,9 +1,10 @@
 % **************************************************
 % Document Class Definition
+% page layout in TeX - https://www.tug.org/TUGboat/tb09-1/tb20mcpherson.pdf
 % **************************************************
 \documentclass[%
 	paper=letterpaper,			% paper size --> letterpaper is default in US
-	twoside=false,				% onesite or twoside printing
+	twoside=true,				% onesite or twoside printing
 	openright,					% doublepage cleaning ends up right side
 %	parskip=full,				% spacing value / method for paragraphs
 	chapterprefix=true,			% prefix for chapter marks
@@ -79,7 +80,7 @@
 \usepackage[nottoc,notlof,notlot]{tocbibind} 
 
 \hypersetup{					% setup the hyperref-package options
-	pdftitle={\thesisTitle},	% 	- title (PDF meta)
+	pdftitle={\thesisTitle: \thesisSubtitle},	% 	- title (PDF meta)
 	pdfsubject={\thesisSubject},% 	- subject (PDF meta)
 	pdfauthor={\thesisName},	% 	- author (PDF meta)
 	plainpages=false,			% 	-
@@ -96,6 +97,9 @@
 %	\renewcaptionname{english}\contentsname{\color{ctcolorblack}\huge \fontfamily{phv}\selectfont{Summary3}}
 %\endgroup 
 
+% Allowing current chapter name to be available in both the leftmark and rightmark footer's
+\let\Chaptermark\chaptermark
+\def\chaptermark#1{\def\Chaptername{#1}\Chaptermark{#1}}
 
 %\renewcommand*\contentsname{Summary}
 %\renewcommand{\cftchappagefont}{\normalfont}
@@ -144,7 +148,7 @@
 \input{content/acknowledgement} % INCLUDE: acknowledgement
 \cleardoublepage
 %
-\input{content/dedication} % INCLUDE: acknowledgement
+%\input{content/dedication} % INCLUDE: acknowledgement
 \cleardoublepage
 %
 
@@ -172,6 +176,11 @@
 % Back matter
 % --------------------------
 {%
+
+% use this solution to style refs properly http://latex-community.org/forum/viewtopic.php?f=4&t=3387
+%\pagestyle{plain}
+ 
+%\bibliographystyle{plain}
 
 \renewcommand\bibname{References}
 % surpress bib labels
@@ -207,10 +216,10 @@
 \input{content/colophon}
 \cleardoublepage
 
-\input{content/declaration}
-\clearpage
-\newpage
-\mbox{}
+%\input{content/declaration}
+%\clearpage
+%\newpage
+%\mbox{}
 
 % **************************************************
 % End of Document CONTENT
