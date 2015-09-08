@@ -262,14 +262,15 @@
 	%scale={0.86,0.94},				% 	- total body size (h,v)
 	nohead,							% 	- no header
 	includefoot,					% 	- include footer space
-	includemp,						% 	- include side note space
-	bindingoffset=0.5cm,			% 	- binding correction
-	top=1.5in,						% 	- total body: top margin
-	left=1in,					% 	- total body: left margin (odd pages)
-	right=1in,					% 	- total body: right margin (odd pages)
+% jsb - TURN OFF margin side notes 
+%	includemp,						% 	- include side note space
+	bindingoffset=0.2in,			% 	- binding correction
+	top=1in,						% 	- total body: top margin
+	inner=1in,					% 	- total body: left margin (odd pages)
+	outer=1in,					% 	- total body: right margin (odd pages)
 	bottom=0.4in,					% 	- total body: bottom margin
-	marginparwidth=1.75cm,			% 	- width for side note
-	marginparsep=10pt,				% 	- space between notes and body text (content)
+%	marginparwidth=0.25cm,			% 	- width for side note
+%	marginparsep=10pt,				% 	- space between notes and body text (content)
 	footskip=0.6in,					% 	- footer skip size
 ]{geometry}
 %
@@ -366,30 +367,40 @@
 		\footnotesize%
 %		{\color{ctcolorfootermark}\textbf{\chaptername\ \thechapter}}%
 		\quad%
-		{\color{ctcolorfootertitle}}%
+%		{\color{ctcolorfootertitle}#1}%
+		{\color{ctcolorfootertitle}\textbf{\chaptername\ \thechapter}}
 	}{}%
 }
+
+% allow removal of linebreaks from section headings to fit in the footer
+\newcommand{\removelinebreaks}[1]{%
+  	\begingroup\def\\{ }#1\endgroup
+ }
+
 \renewcommand{\sectionmark}[1]{%
 	\markright{%
 		\footnotesize%
 %		{\color{ctcolorfootermark}\textbf{\thesection}}%
 		\quad%
-		{\color{ctcolorfootertitle}}%
+%		{\color{ctcolorfootertitle}#1}%
+% can i make this work? \parbox[t]{\dimexpr\textwidth-2em\relax}{\setstretch{1.2}\raggedright#1}\setstretch{2}
+%		{\parbox[b]{2.5in}{\color{ctcolorfootertitle}\textbf{\Chaptername}}}
+		{\color{ctcolorfootertitle}\textbf{\removelinebreaks{\Chaptername}}}
 	}%
 }
 %
 \fancypagestyle{plain}{%
 	\fancyhf{}
-	\fancyfootoffset[OR]{1.85cm}
-	\fancyfoot[CO]{%
+	\fancyfootoffset[OR]{4ex}
+	\fancyfoot[OR]{%
 		{\ }\tgherosfont%
 		{\color{ctcolorfooterline}\rule[-90pt]{1.25pt}{100pt}}%
 		\hspace*{10pt}\begin{minipage}[b]{1.5cm}%
 			\color{ctcolorfooterpage}\normalsize\textbf{\thepage}%
 		\end{minipage}%
 	}
-	\fancyfootoffset[ER]{1.85cm}
-	\fancyfoot[CE]{%
+	\fancyfootoffset[EL]{4ex}
+	\fancyfoot[EL]{%
 		\tgherosfont%
 		\begin{minipage}[b]{1.5cm}%
 			\raggedleft\color{ctcolorfooterpage}\normalsize\textbf{\thepage}%
@@ -403,8 +414,8 @@
 \fancypagestyle{maincontentstyle}{%
 	\pagestyle{plain}
 	\fancyhf{}
-	\fancyfootoffset[OR]{1.85cm}
-	\fancyfoot[CO]{%
+	\fancyfootoffset[OR]{4ex}
+	\fancyfoot[OR]{%
 		{\ }\tgherosfont\footnotesize%
 		\rightmark%
 		\hspace*{0.75cm}{\color{ctcolorfooterline}\rule[-90pt]{1.25pt}{100pt}}%
@@ -412,8 +423,8 @@
 			\color{ctcolorfooterpage}\normalsize\textbf{\thepage}%
 		\end{minipage}%
 	}
-	\fancyfootoffset[ER]{1.85cm}
-	\fancyfoot[CE]{%
+	\fancyfootoffset[EL]{4ex}
+	\fancyfoot[EL]{%
 		\tgherosfont\footnotesize%
 		\begin{minipage}[b]{1.5cm}%
 			\raggedleft\color{ctcolorfooterpage}\normalsize\textbf{\thepage}%
@@ -551,11 +562,11 @@
 % of the chapter headline text, see bug/ticket #1
 % Solution adapted according to the comment from "Gonzalo Medina" - Thanks
 % http://tex.stackexchange.com/questions/165878/width-of-chapter-section-with-titlesec
-\newcommand\ctformatchapter[1]{\parbox[t]{\dimexpr\textwidth-4em\relax}{\raggedright#1}}
+\newcommand\ctformatchapter[1]{\parbox[t]{\dimexpr\textwidth-2em\relax}{\setstretch{1.2}\raggedright#1}\setstretch{2}}
 %
 \titleformat{\chapter}[display]%
 	{\usekomafont{chapter}}%
-	{\vspace{-8em}\raggedleft{%
+		{\vspace{-8em}\raggedleft{%
 		{\color{ctcolorchapterline}%
 			\rule[-5pt]{2pt}{5cm}}\quad%
 		{\color{ctcolorchapternum}
@@ -563,7 +574,9 @@
 		}%
 	}%
 	{-2.1em}%
+%	\setstretch{1.2}%
 	{\ctformatchapter}%
+%	\setstretch{2}%
 	[\phantomsection]
 %
 % use the * version of titlespacing to skip the indent after section
@@ -647,6 +660,9 @@
 \cftsetindents{figure}{0em}{3em}
 \cftsetindents{table}{0em}{3em}
 
+% start the ToC a bit higher, so references don't dangle
+\setlength{\cftbeforetoctitleskip}{-3em}
+
 %
 %
 %
@@ -677,7 +693,8 @@
 		    \end{minipage}%
 		\end{flushright}
 	\end{minipage}%
-	\bigskip
+%	\bigskip
+	\vspace*{0.8in}
 	\setstretch{2}%
 }
 %
