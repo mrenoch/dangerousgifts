@@ -238,7 +238,8 @@
 \RequirePackage{blindtext}		% package for blind text
 \RequirePackage{textcomp}			% different symbols
 \RequirePackage{hyperref} 			% interactive link inside the document
-% \RequirePackage{subfig}
+\RequirePackage{xstring}			% jsb - for substring (used to replace : w/ newlines)
+\RequirePackage{quoting}			% jsb - to allow for manual block quoting
 %
 \RequirePackage[					% modify figure and table captions
 	font={small}, 					% 	- small font size
@@ -373,6 +374,7 @@
 }
 
 % allow removal of linebreaks from section headings to fit in the footer
+% jsb - there should not be any, but, why not leave this here now that I wrote it
 \newcommand{\removelinebreaks}[1]{%
   	\begingroup\def\\{ }#1\endgroup
  }
@@ -558,11 +560,30 @@
 %
 % > formats: \chapter
 %
+
+% allow removal of linebreaks from section headings to fit in the footer
+\newcommand{\breakoncolon}[1]{%
+  	\begingroup\def: {:\\ }#1\endgroup
+ }
+
+
 % The following command is used to avoid overlapping
 % of the chapter headline text, see bug/ticket #1
 % Solution adapted according to the comment from "Gonzalo Medina" - Thanks
 % http://tex.stackexchange.com/questions/165878/width-of-chapter-section-with-titlesec
-\newcommand\ctformatchapter[1]{\parbox[t]{\dimexpr\textwidth-2em\relax}{\setstretch{1.2}\raggedright#1}\setstretch{2}}
+
+% added crazy str substitions to create multi-line headers, breaking on colon
+\newcommand\ctformatchapter[1]{%
+ 	\saveexpandmode%
+  	\expandarg% 
+  	\setstretch{1.2}%
+  	\StrSubstitute{#1}{:}{:\\ \indent}[\SUBtempone]%
+  	\StrSubstitute{\SUBtempone}{The Icarus Project and}{The Icarus Project and\\ \indent}[\SUBtemptwo]%
+  	\restoreexpandmode%
+	\parbox[t]{\dimexpr\textwidth-2em\relax}{\raggedright{\SUBtemptwo}}%
+	\setstretch{2}%
+}
+
 %
 \titleformat{\chapter}[display]%
 	{\usekomafont{chapter}}%
@@ -661,7 +682,7 @@
 \cftsetindents{table}{0em}{3em}
 
 % start the ToC a bit higher, so references don't dangle
-\setlength{\cftbeforetoctitleskip}{-3em}
+\setlength{\cftbeforetoctitleskip}{-1em}
 
 %
 %

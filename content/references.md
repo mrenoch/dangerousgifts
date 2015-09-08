@@ -338,8 +338,7 @@ Earley, P. (2013, May 23). Congress Hears About SAMHSA's Failings: Pushing an An
 Egan, J. (2008, September 12). "The Bipolar Puzzle - What Does it Mean to be a Manic-Depressive Child?". _The New York Times Magazine_. Retrieved August 20, 2015, from \url{http://www.nytimes.com/2008/09/14/magazine/14bipolar-t.html?pagewanted=all&_r=1&}.
 
 \bibitem{}
-Edelstein, L. (1987). _Ancient Medicine: Selected Papers of Ludwig Edelstein_ (1 edition). Baltimore, MD: Johns Hopkins University Press.
-
+Edelstein, L. (1987). "Hippocratic Oath". In: _Ancient Medicine: Selected Papers of Ludwig Edelstein_ (1 edition). Baltimore, MD: Johns Hopkins University Press.
 
 \bibitem{}
 Elliott, C. (2010, September 12). The Secret Lives of Big Pharma's "Thought Leaders." _The Chronicle of Higher Education_. Retrieved on June 18, 2015 from \url{http://chronicle.com.ezproxy.cul.columbia.edu/article/The-Secret-Lives-of-Big/124335/}.
