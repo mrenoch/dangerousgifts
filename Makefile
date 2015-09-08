@@ -28,3 +28,8 @@ chap6: content/chapter06-conclusion.md
 
 refs: content/references.md
 	pandoc  -f markdown_mmd -t latex  content/references.md > content/references.tex
+
+clean:
+	rm dangerousgifts-master-blx.bib dangerousgifts-master.lot \
+		dangerousgifts-master.aux dangerousgifts-master.out	dangerousgifts-master.lof dangerousgifts-master.pdf \
+		dangerousgifts_jbossewitch.pdf dangerousgifts-master.log dangerousgifts-master.run.xml
