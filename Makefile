@@ -1,5 +1,6 @@
 diss: 
 	pdflatex dangerousgifts-master.tex 
+	pdflatex dangerousgifts-master.tex 
 	mv dangerousgifts-master.pdf dangerousgifts_jbossewitch.pdf
 
 all: content/all-chapters.md

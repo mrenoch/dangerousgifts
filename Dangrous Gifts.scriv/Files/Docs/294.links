@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Links Version="1.0" Anchor="RTF">
+    <CommentsAndFootnotes>
+        <Comment IsFootnote="No" Collapsed="No" ID="1681BF71-4CB4-40EA-88FC-C859BE7DBC53">
+            <Range>20662,8</Range>
+            <Color>0.992 0.929 0.525</Color>
+            <RTF><![CDATA[{\rtf1\ansi\ansicpg1252\cocoartf1265\cocoasubrtf210
+{\fonttbl\f0\fnil\fcharset0 Verdana;}
+{\colortbl;\red255\green255\blue255;}
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural
+
+\f0\fs20 \cf0 TG  - Does this happen}]]></RTF>
+        </Comment>
+        <Comment IsFootnote="No" Collapsed="No" ID="8BD54312-2673-40D1-9701-8460F49BF977">
+            <Range>20957,12</Range>
+            <Color>0.992 0.929 0.525</Color>
+            <RTF><![CDATA[{\rtf1\ansi\ansicpg1252\cocoartf1265\cocoasubrtf210
+{\fonttbl\f0\fnil\fcharset0 Verdana;}
+{\colortbl;\red255\green255\blue255;}
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural
+
+\f0\fs20 \cf0 TG - Vague}]]></RTF>
+        </Comment>
+        <Comment IsFootnote="No" Collapsed="No" ID="85748809-61F0-4D7B-951D-EB533BCC3857">
+            <Range>21574,9</Range>
+            <Color>0.992 0.929 0.525</Color>
+            <RTF><![CDATA[{\rtf1\ansi\ansicpg1252\cocoartf1265\cocoasubrtf210
+{\fonttbl\f0\fnil\fcharset0 Verdana;}
+{\colortbl;\red255\green255\blue255;}
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural
+
+\f0\fs20 \cf0 TG - ? }]]></RTF>
+        </Comment>
+    </CommentsAndFootnotes>
+</Links>

@@ -308,7 +308,7 @@
 % **************************************************
 % Text Format
 % **************************************************
-\setstretch{2}					% value for line spacing, use \setstretch{} or \singlespacing or \onehalfspacing or \doublespacing
+\setstretch{2}					% value for line spacing, use \setstretch{} or \singlespacing or \onehalfspacing or \doublespacing - % jsb - main content spaceing
 \setlength{\parindent}{2em}			% value for paragraph indentation
 \clubpenalty = 10000				% prevent single lines at the beginning of a paragraph (Schusterjungen)
 \widowpenalty = 10000				% prevent single lines at the end of a paragraph (Hurenkinder)
@@ -581,7 +581,7 @@
   	\StrSubstitute{\SUBtempone}{The Icarus Project and}{The Icarus Project and\\ \indent}[\SUBtemptwo]%
   	\restoreexpandmode%
 	\parbox[t]{\dimexpr\textwidth-2em\relax}{\raggedright{\SUBtemptwo}}%
-	\setstretch{2}%
+	\setstretch{2}% % jsb - main content spaceing
 }
 
 %
@@ -597,7 +597,7 @@
 	{-2.1em}%
 %	\setstretch{1.2}%
 	{\ctformatchapter}%
-%	\setstretch{2}%
+%	\setstretch{2}% % jsb - main content spaceing
 	[\phantomsection]
 %
 % use the * version of titlespacing to skip the indent after section
@@ -716,7 +716,7 @@
 	\end{minipage}%
 %	\bigskip
 	\vspace*{0.8in}
-	\setstretch{2}%
+	\setstretch{2}% % jsb - main content spaceing
 }
 %
 % Clean Quotation environment
