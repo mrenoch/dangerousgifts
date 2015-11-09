@@ -42,7 +42,74 @@
 	<false/>
 	<key>binderSelection</key>
 	<array>
+		<integer>3</integer>
+		<integer>4</integer>
+		<integer>5</integer>
+		<integer>6</integer>
+		<integer>7</integer>
+		<integer>8</integer>
+		<integer>9</integer>
+		<integer>10</integer>
+		<integer>11</integer>
+		<integer>12</integer>
+		<integer>13</integer>
+		<integer>14</integer>
+		<integer>15</integer>
+		<integer>16</integer>
+		<integer>17</integer>
+		<integer>18</integer>
+		<integer>19</integer>
+		<integer>20</integer>
+		<integer>21</integer>
+		<integer>22</integer>
+		<integer>23</integer>
+		<integer>24</integer>
+		<integer>25</integer>
+		<integer>26</integer>
+		<integer>27</integer>
+		<integer>28</integer>
+		<integer>29</integer>
+		<integer>30</integer>
+		<integer>31</integer>
+		<integer>32</integer>
+		<integer>33</integer>
+		<integer>34</integer>
+		<integer>35</integer>
+		<integer>36</integer>
+		<integer>37</integer>
+		<integer>38</integer>
+		<integer>39</integer>
+		<integer>40</integer>
+		<integer>41</integer>
+		<integer>42</integer>
+		<integer>43</integer>
+		<integer>44</integer>
+		<integer>45</integer>
+		<integer>46</integer>
+		<integer>47</integer>
+		<integer>48</integer>
+		<integer>49</integer>
+		<integer>50</integer>
+		<integer>51</integer>
+		<integer>52</integer>
+		<integer>53</integer>
+		<integer>54</integer>
+		<integer>55</integer>
+		<integer>56</integer>
+		<integer>57</integer>
+		<integer>58</integer>
+		<integer>59</integer>
 		<integer>60</integer>
+		<integer>61</integer>
+		<integer>62</integer>
+		<integer>63</integer>
+		<integer>64</integer>
+		<integer>65</integer>
+		<integer>66</integer>
+		<integer>67</integer>
+		<integer>68</integer>
+		<integer>69</integer>
+		<integer>70</integer>
 	</array>
 	<key>binderSplitFrames</key>
 	<array>
@@ -51,8 +118,6 @@
 	</array>
 	<key>binderState</key>
 	<array>
-		<integer>37</integer>
-		<integer>193</integer>
 		<integer>0</integer>
 		<integer>4</integer>
 		<integer>48</integer>
@@ -91,8 +156,8 @@
 	<true/>
 	<key>editorSplitFrames</key>
 	<array>
-		<string>{{0, 0}, {695, 316}}</string>
-		<string>{{0, 326}, {695, 315}}</string>
+		<string>{{0, 0}, {842, 348}}</string>
+		<string>{{0, 358}, {842, 347}}</string>
 	</array>
 	<key>editorSplitType</key>
 	<integer>0</integer>
@@ -122,7 +187,7 @@
 		<true/>
 	</dict>
 	<key>inspectorIsCollapsed</key>
-	<true/>
+	<false/>
 	<key>inspectorNotesMode</key>
 	<integer>0</integer>
 	<key>inspectorReferencesColumns</key>
@@ -144,14 +209,14 @@
 		</dict>
 	</dict>
 	<key>inspectorSelectedDataTab</key>
-	<integer>4</integer>
+	<integer>5</integer>
 	<key>inspectorSplitFrames</key>
 	<array>
-		<string>{{0, 0}, {810, 705}}</string>
-		<string>{{811, 0}, {258, 705}}</string>
+		<string>{{0, 0}, {784, 705}}</string>
+		<string>{{785, 0}, {316, 705}}</string>
 	</array>
 	<key>inspectorWidth</key>
-	<real>258</real>
+	<real>316</real>
 	<key>lastDocumentSplitType</key>
 	<integer>0</integer>
 	<key>mainDocumentEditor.binderDocuments</key>
@@ -159,9 +224,9 @@
 	<key>mainDocumentEditor.corkboardVisible</key>
 	<false/>
 	<key>mainDocumentEditor.currentEditorViewMode</key>
-	<integer>3</integer>
+	<integer>1</integer>
 	<key>mainDocumentEditor.editorGroupsViewMode</key>
-	<integer>3</integer>
+	<integer>1</integer>
 	<key>mainDocumentEditor.hiddenOutlinerColumnIdentifiers</key>
 	<array>
 		<string>createdDate</string>
@@ -190,18 +255,94 @@
 	<key>mainDocumentEditor.navigationHistory</key>
 	<dict>
 		<key>CurrentIndex</key>
-		<integer>-1</integer>
+		<integer>0</integer>
 		<key>NavigationHistoryArray</key>
-		<array/>
+		<array>
+			<dict>
+				<key>AggregateSelection</key>
+				<string>{0, 0}</string>
+				<key>BinderDocIDs</key>
+				<array>
+					<integer>0</integer>
+					<integer>4</integer>
+					<integer>267</integer>
+					<integer>259</integer>
+					<integer>262</integer>
+					<integer>263</integer>
+					<integer>264</integer>
+					<integer>265</integer>
+					<integer>266</integer>
+					<integer>48</integer>
+					<integer>247</integer>
+					<integer>249</integer>
+					<integer>250</integer>
+					<integer>251</integer>
+					<integer>252</integer>
+					<integer>253</integer>
+					<integer>254</integer>
+					<integer>255</integer>
+					<integer>256</integer>
+					<integer>57</integer>
+					<integer>165</integer>
+					<integer>166</integer>
+					<integer>167</integer>
+					<integer>168</integer>
+					<integer>169</integer>
+					<integer>170</integer>
+					<integer>171</integer>
+					<integer>172</integer>
+					<integer>173</integer>
+					<integer>174</integer>
+					<integer>175</integer>
+					<integer>176</integer>
+					<integer>177</integer>
+					<integer>178</integer>
+					<integer>179</integer>
+					<integer>63</integer>
+					<integer>180</integer>
+					<integer>181</integer>
+					<integer>182</integer>
+					<integer>183</integer>
+					<integer>184</integer>
+					<integer>185</integer>
+					<integer>186</integer>
+					<integer>187</integer>
+					<integer>188</integer>
+					<integer>189</integer>
+					<integer>190</integer>
+					<integer>191</integer>
+					<integer>65</integer>
+					<integer>292</integer>
+					<integer>293</integer>
+					<integer>294</integer>
+					<integer>295</integer>
+					<integer>296</integer>
+					<integer>297</integer>
+					<integer>298</integer>
+					<integer>299</integer>
+					<integer>68</integer>
+					<integer>145</integer>
+					<integer>146</integer>
+					<integer>147</integer>
+					<integer>148</integer>
+					<integer>149</integer>
+					<integer>150</integer>
+					<integer>151</integer>
+					<integer>152</integer>
+					<integer>153</integer>
+					<integer>154</integer>
+				</array>
+				<key>ViewMode</key>
+				<integer>1</integer>
+			</dict>
+		</array>
 	</dict>
 	<key>mainDocumentEditor.outlinerVisible</key>
 	<false/>
 	<key>mainDocumentEditor.rulerIsVisible</key>
 	<false/>
 	<key>mainDocumentEditor.scrollRect</key>
-	<string>{{0, 0}, {606, 304}}</string>
-	<key>mainDocumentEditor.selectedItemIDs</key>
-	<array/>
+	<string>{{0, 0}, {827, 302}}</string>
 	<key>mainDocumentEditor.textEditorState</key>
 	<dict>
 		<key>hasMultiplePages</key>
@@ -218,7 +359,7 @@
 	<key>mainDocumentView</key>
 	<string>supportingDocumentEditor</string>
 	<key>mainWindowFrame</key>
-	<string>84 121 1293 753 0 0 1440 878 </string>
+	<string>113 117 1293 753 0 0 1440 878 </string>
 	<key>projectStatsSheet</key>
 	<dict>
 		<key>countDraftFootnotes</key>
@@ -262,10 +403,77 @@
 	<false/>
 	<key>supportingDocumentEditor.binderDocuments</key>
 	<array>
+		<integer>0</integer>
+		<integer>4</integer>
+		<integer>267</integer>
+		<integer>259</integer>
+		<integer>262</integer>
+		<integer>263</integer>
+		<integer>264</integer>
+		<integer>265</integer>
+		<integer>266</integer>
+		<integer>48</integer>
+		<integer>247</integer>
+		<integer>249</integer>
+		<integer>250</integer>
+		<integer>251</integer>
+		<integer>252</integer>
+		<integer>253</integer>
+		<integer>254</integer>
+		<integer>255</integer>
+		<integer>256</integer>
+		<integer>57</integer>
+		<integer>165</integer>
+		<integer>166</integer>
+		<integer>167</integer>
+		<integer>168</integer>
+		<integer>169</integer>
+		<integer>170</integer>
+		<integer>171</integer>
+		<integer>172</integer>
+		<integer>173</integer>
+		<integer>174</integer>
+		<integer>175</integer>
+		<integer>176</integer>
+		<integer>177</integer>
+		<integer>178</integer>
+		<integer>179</integer>
+		<integer>63</integer>
+		<integer>180</integer>
+		<integer>181</integer>
+		<integer>182</integer>
+		<integer>183</integer>
+		<integer>184</integer>
+		<integer>185</integer>
+		<integer>186</integer>
+		<integer>187</integer>
+		<integer>188</integer>
+		<integer>189</integer>
+		<integer>190</integer>
+		<integer>191</integer>
+		<integer>65</integer>
+		<integer>292</integer>
+		<integer>293</integer>
 		<integer>294</integer>
+		<integer>295</integer>
+		<integer>296</integer>
+		<integer>297</integer>
+		<integer>298</integer>
+		<integer>299</integer>
+		<integer>68</integer>
+		<integer>145</integer>
+		<integer>146</integer>
+		<integer>147</integer>
+		<integer>148</integer>
+		<integer>149</integer>
+		<integer>150</integer>
+		<integer>151</integer>
+		<integer>152</integer>
+		<integer>153</integer>
+		<integer>154</integer>
 	</array>
 	<key>supportingDocumentEditor.currentEditorViewMode</key>
-	<integer>0</integer>
+	<integer>1</integer>
 	<key>supportingDocumentEditor.editorGroupsViewMode</key>
 	<integer>0</integer>
 	<key>supportingDocumentEditor.hiddenOutlinerColumnIdentifiers</key>
@@ -298,126 +506,6 @@
 		<integer>99</integer>
 		<key>NavigationHistoryArray</key>
 		<array>
-			<dict>
-				<key>BinderDocIDs</key>
-				<array>
-					<integer>297</integer>
-				</array>
-				<key>ViewMode</key>
-				<integer>0</integer>
-			</dict>
-			<dict>
-				<key>BinderDocIDs</key>
-				<array>
-					<integer>298</integer>
-				</array>
-				<key>ViewMode</key>
-				<integer>0</integer>
-			</dict>
-			<dict>
-				<key>BinderDocIDs</key>
-				<array>
-					<integer>299</integer>
-				</array>
-				<key>ViewMode</key>
-				<integer>0</integer>
-			</dict>
-			<dict>
-				<key>BinderDocIDs</key>
-				<array>
-					<integer>297</integer>
-				</array>
-				<key>ViewMode</key>
-				<integer>0</integer>
-			</dict>
-			<dict>
-				<key>BinderDocIDs</key>
-				<array>
-					<integer>296</integer>
-				</array>
-				<key>ViewMode</key>
-				<integer>0</integer>
-			</dict>
-			<dict>
-				<key>BinderDocIDs</key>
-				<array>
-					<integer>267</integer>
-				</array>
-				<key>ViewMode</key>
-				<integer>0</integer>
-			</dict>
-			<dict>
-				<key>BinderDocIDs</key>
-				<array>
-					<integer>165</integer>
-				</array>
-				<key>ViewMode</key>
-				<integer>0</integer>
-			</dict>
-			<dict>
-				<key>BinderDocIDs</key>
-				<array>
-					<integer>180</integer>
-				</array>
-				<key>ViewMode</key>
-				<integer>0</integer>
-			</dict>
-			<dict>
-				<key>BinderDocIDs</key>
-				<array>
-					<integer>292</integer>
-				</array>
-				<key>ViewMode</key>
-				<integer>0</integer>
-			</dict>
-			<dict>
-				<key>BinderDocIDs</key>
-				<array>
-					<integer>267</integer>
-				</array>
-				<key>ViewMode</key>
-				<integer>0</integer>
-			</dict>
-			<dict>
-				<key>BinderDocIDs</key>
-				<array>
-					<integer>292</integer>
-				</array>
-				<key>ViewMode</key>
-				<integer>0</integer>
-			</dict>
-			<dict>
-				<key>BinderDocIDs</key>
-				<array>
-					<integer>68</integer>
-				</array>
-				<key>ViewMode</key>
-				<integer>0</integer>
-			</dict>
-			<dict>
-				<key>BinderDocIDs</key>
-				<array>
-					<integer>145</integer>
-				</array>
-				<key>ViewMode</key>
-				<integer>0</integer>
-			</dict>
-			<dict>
-				<key>BinderDocIDs</key>
-				<array>
-					<integer>247</integer>
-				</array>
-				<key>ViewMode</key>
-				<integer>0</integer>
-			</dict>
-			<dict>
-				<key>BinderDocIDs</key>
-				<array>
-					<integer>292</integer>
-				</array>
-				<key>ViewMode</key>
-				<integer>0</integer>
-			</dict>
 			<dict>
 				<key>BinderDocIDs</key>
 				<array>
@@ -1283,6 +1371,400 @@
 				<key>ViewMode</key>
 				<integer>0</integer>
 			</dict>
+			<dict>
+				<key>BinderDocIDs</key>
+				<array>
+					<integer>4</integer>
+				</array>
+				<key>ViewMode</key>
+				<integer>0</integer>
+			</dict>
+			<dict>
+				<key>BinderDocIDs</key>
+				<array>
+					<integer>0</integer>
+				</array>
+				<key>ViewMode</key>
+				<integer>0</integer>
+			</dict>
+			<dict>
+				<key>AggregateSelection</key>
+				<string>{48710, 0}</string>
+				<key>BinderDocIDs</key>
+				<array>
+					<integer>0</integer>
+					<integer>4</integer>
+					<integer>267</integer>
+					<integer>259</integer>
+					<integer>262</integer>
+					<integer>263</integer>
+					<integer>264</integer>
+					<integer>265</integer>
+					<integer>266</integer>
+					<integer>48</integer>
+					<integer>247</integer>
+					<integer>249</integer>
+					<integer>250</integer>
+					<integer>251</integer>
+					<integer>252</integer>
+					<integer>253</integer>
+					<integer>254</integer>
+					<integer>255</integer>
+					<integer>256</integer>
+					<integer>57</integer>
+					<integer>165</integer>
+					<integer>166</integer>
+					<integer>167</integer>
+					<integer>168</integer>
+					<integer>169</integer>
+					<integer>170</integer>
+					<integer>171</integer>
+					<integer>172</integer>
+					<integer>173</integer>
+					<integer>174</integer>
+					<integer>175</integer>
+					<integer>176</integer>
+					<integer>177</integer>
+					<integer>178</integer>
+					<integer>179</integer>
+					<integer>63</integer>
+					<integer>180</integer>
+					<integer>181</integer>
+					<integer>182</integer>
+					<integer>183</integer>
+					<integer>184</integer>
+					<integer>185</integer>
+					<integer>186</integer>
+					<integer>187</integer>
+					<integer>188</integer>
+					<integer>189</integer>
+					<integer>190</integer>
+					<integer>191</integer>
+					<integer>65</integer>
+					<integer>292</integer>
+					<integer>293</integer>
+					<integer>294</integer>
+					<integer>295</integer>
+					<integer>296</integer>
+					<integer>297</integer>
+					<integer>298</integer>
+					<integer>299</integer>
+					<integer>68</integer>
+					<integer>145</integer>
+					<integer>146</integer>
+					<integer>147</integer>
+					<integer>148</integer>
+					<integer>149</integer>
+					<integer>150</integer>
+					<integer>151</integer>
+					<integer>152</integer>
+					<integer>153</integer>
+					<integer>154</integer>
+				</array>
+				<key>ViewMode</key>
+				<integer>1</integer>
+			</dict>
+			<dict>
+				<key>AggregateSelection</key>
+				<string>{48711, 0}</string>
+				<key>BinderDocIDs</key>
+				<array>
+					<integer>4</integer>
+					<integer>267</integer>
+					<integer>259</integer>
+					<integer>262</integer>
+					<integer>263</integer>
+					<integer>264</integer>
+					<integer>265</integer>
+					<integer>266</integer>
+					<integer>303</integer>
+					<integer>48</integer>
+					<integer>247</integer>
+					<integer>249</integer>
+					<integer>250</integer>
+					<integer>251</integer>
+					<integer>252</integer>
+					<integer>253</integer>
+					<integer>254</integer>
+					<integer>255</integer>
+					<integer>256</integer>
+					<integer>57</integer>
+					<integer>165</integer>
+					<integer>166</integer>
+					<integer>167</integer>
+					<integer>168</integer>
+					<integer>169</integer>
+					<integer>170</integer>
+					<integer>171</integer>
+					<integer>172</integer>
+					<integer>173</integer>
+					<integer>174</integer>
+					<integer>175</integer>
+					<integer>176</integer>
+					<integer>177</integer>
+					<integer>178</integer>
+					<integer>179</integer>
+					<integer>63</integer>
+					<integer>180</integer>
+					<integer>181</integer>
+					<integer>182</integer>
+					<integer>183</integer>
+					<integer>184</integer>
+					<integer>185</integer>
+					<integer>186</integer>
+					<integer>187</integer>
+					<integer>188</integer>
+					<integer>189</integer>
+					<integer>190</integer>
+					<integer>191</integer>
+					<integer>65</integer>
+					<integer>292</integer>
+					<integer>293</integer>
+					<integer>294</integer>
+					<integer>295</integer>
+					<integer>296</integer>
+					<integer>297</integer>
+					<integer>298</integer>
+					<integer>299</integer>
+					<integer>68</integer>
+					<integer>145</integer>
+					<integer>146</integer>
+					<integer>147</integer>
+					<integer>148</integer>
+					<integer>149</integer>
+					<integer>150</integer>
+					<integer>151</integer>
+					<integer>152</integer>
+					<integer>153</integer>
+					<integer>154</integer>
+				</array>
+				<key>ViewMode</key>
+				<integer>1</integer>
+			</dict>
+			<dict>
+				<key>BinderDocIDs</key>
+				<array>
+					<integer>303</integer>
+				</array>
+				<key>ViewMode</key>
+				<integer>0</integer>
+			</dict>
+			<dict>
+				<key>BinderDocIDs</key>
+				<array>
+					<integer>266</integer>
+				</array>
+				<key>ViewMode</key>
+				<integer>0</integer>
+			</dict>
+			<dict>
+				<key>BinderDocIDs</key>
+				<array>
+					<integer>303</integer>
+				</array>
+				<key>ViewMode</key>
+				<integer>0</integer>
+			</dict>
+			<dict>
+				<key>BinderDocIDs</key>
+				<array>
+					<integer>266</integer>
+				</array>
+				<key>ViewMode</key>
+				<integer>0</integer>
+			</dict>
+			<dict>
+				<key>BinderDocIDs</key>
+				<array>
+					<integer>303</integer>
+				</array>
+				<key>ViewMode</key>
+				<integer>0</integer>
+			</dict>
+			<dict>
+				<key>BinderDocIDs</key>
+				<array>
+					<integer>48</integer>
+				</array>
+				<key>ViewMode</key>
+				<integer>0</integer>
+			</dict>
+			<dict>
+				<key>BinderDocIDs</key>
+				<array>
+					<integer>0</integer>
+				</array>
+				<key>ViewMode</key>
+				<integer>0</integer>
+			</dict>
+			<dict>
+				<key>AggregateSelection</key>
+				<string>{68164, 0}</string>
+				<key>BinderDocIDs</key>
+				<array>
+					<integer>0</integer>
+					<integer>4</integer>
+					<integer>267</integer>
+					<integer>259</integer>
+					<integer>262</integer>
+					<integer>263</integer>
+					<integer>264</integer>
+					<integer>265</integer>
+					<integer>266</integer>
+					<integer>48</integer>
+					<integer>247</integer>
+					<integer>249</integer>
+					<integer>250</integer>
+					<integer>251</integer>
+					<integer>252</integer>
+					<integer>253</integer>
+					<integer>254</integer>
+					<integer>255</integer>
+					<integer>256</integer>
+					<integer>57</integer>
+					<integer>165</integer>
+					<integer>166</integer>
+					<integer>167</integer>
+					<integer>168</integer>
+					<integer>169</integer>
+					<integer>170</integer>
+					<integer>171</integer>
+					<integer>172</integer>
+					<integer>173</integer>
+					<integer>174</integer>
+					<integer>175</integer>
+					<integer>176</integer>
+					<integer>177</integer>
+					<integer>178</integer>
+					<integer>179</integer>
+					<integer>63</integer>
+					<integer>180</integer>
+					<integer>181</integer>
+					<integer>182</integer>
+					<integer>183</integer>
+					<integer>184</integer>
+					<integer>185</integer>
+					<integer>186</integer>
+					<integer>187</integer>
+					<integer>188</integer>
+					<integer>189</integer>
+					<integer>190</integer>
+					<integer>191</integer>
+					<integer>65</integer>
+					<integer>292</integer>
+					<integer>293</integer>
+					<integer>294</integer>
+					<integer>295</integer>
+					<integer>296</integer>
+					<integer>297</integer>
+					<integer>298</integer>
+					<integer>299</integer>
+					<integer>68</integer>
+					<integer>145</integer>
+					<integer>146</integer>
+					<integer>147</integer>
+					<integer>148</integer>
+					<integer>149</integer>
+					<integer>150</integer>
+					<integer>151</integer>
+					<integer>152</integer>
+					<integer>153</integer>
+					<integer>154</integer>
+				</array>
+				<key>ViewMode</key>
+				<integer>1</integer>
+			</dict>
+			<dict>
+				<key>BinderDocIDs</key>
+				<array>
+					<integer>290</integer>
+				</array>
+				<key>ViewMode</key>
+				<integer>0</integer>
+			</dict>
+			<dict>
+				<key>BinderDocIDs</key>
+				<array>
+					<integer>154</integer>
+				</array>
+				<key>ViewMode</key>
+				<integer>0</integer>
+			</dict>
+			<dict>
+				<key>BinderDocIDs</key>
+				<array>
+					<integer>0</integer>
+					<integer>4</integer>
+					<integer>267</integer>
+					<integer>259</integer>
+					<integer>262</integer>
+					<integer>263</integer>
+					<integer>264</integer>
+					<integer>265</integer>
+					<integer>266</integer>
+					<integer>48</integer>
+					<integer>247</integer>
+					<integer>249</integer>
+					<integer>250</integer>
+					<integer>251</integer>
+					<integer>252</integer>
+					<integer>253</integer>
+					<integer>254</integer>
+					<integer>255</integer>
+					<integer>256</integer>
+					<integer>57</integer>
+					<integer>165</integer>
+					<integer>166</integer>
+					<integer>167</integer>
+					<integer>168</integer>
+					<integer>169</integer>
+					<integer>170</integer>
+					<integer>171</integer>
+					<integer>172</integer>
+					<integer>173</integer>
+					<integer>174</integer>
+					<integer>175</integer>
+					<integer>176</integer>
+					<integer>177</integer>
+					<integer>178</integer>
+					<integer>179</integer>
+					<integer>63</integer>
+					<integer>180</integer>
+					<integer>181</integer>
+					<integer>182</integer>
+					<integer>183</integer>
+					<integer>184</integer>
+					<integer>185</integer>
+					<integer>186</integer>
+					<integer>187</integer>
+					<integer>188</integer>
+					<integer>189</integer>
+					<integer>190</integer>
+					<integer>191</integer>
+					<integer>65</integer>
+					<integer>292</integer>
+					<integer>293</integer>
+					<integer>294</integer>
+					<integer>295</integer>
+					<integer>296</integer>
+					<integer>297</integer>
+					<integer>298</integer>
+					<integer>299</integer>
+					<integer>68</integer>
+					<integer>145</integer>
+					<integer>146</integer>
+					<integer>147</integer>
+					<integer>148</integer>
+					<integer>149</integer>
+					<integer>150</integer>
+					<integer>151</integer>
+					<integer>152</integer>
+					<integer>153</integer>
+					<integer>154</integer>
+				</array>
+				<key>ViewMode</key>
+				<integer>1</integer>
+			</dict>
 		</array>
 	</dict>
 	<key>supportingDocumentEditor.outlinerColumnsState</key>
@@ -1351,9 +1833,9 @@
 	<key>supportingDocumentEditor.outlinerState</key>
 	<array/>
 	<key>supportingDocumentEditor.scrollRect</key>
-	<string>{{0, 0}, {1086, 659}}</string>
+	<string>{{0, 99508}, {769, 659}}</string>
 	<key>supportingDocumentEditor.selectedRanges</key>
-	<string>{749, 0}</string>
+	<string>{501639, 0}</string>
 	<key>supportingDocumentEditor.textEditorState</key>
 	<dict>
 		<key>hasMultiplePages</key>
