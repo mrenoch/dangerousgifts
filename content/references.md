@@ -2,7 +2,7 @@
 Activist Trauma Support. (n.d.). [Website]. Retrieved July 19, 2015 from \url{https://www.activist-trauma.net/}.
 
 \bibitem{}
-Adichie, C. (2009, July). "The Danger of a Single Story". \emph{TED Talks}. Retrieved September 4, 2015 from \url{http://www.ted.com/talks/chimamanda_adichie_the_danger_of_a_single_story.html}.
+Adichie, C. N. (2009, July). "The Danger of a Single Story". \emph{TED Talks}. Retrieved September 4, 2015 from \url{http://www.ted.com/talks/chimamanda_adichie_the_danger_of_a_single_story.html}.
 
 \bibitem{}Alcoff, L. M. (1991). "The Problem of Speaking for Others." \emph{Cultural Critique} (Winter 1991-1992):
 5-32.
@@ -289,6 +289,7 @@ Davey, G. (2014, November 27). Understanding Psychosis and Schizophrenia. _Psych
 \bibitem{}
 Davis, L. J. (1997). _The Disability Studies Reader_. New York: Routledge. 
 
+
 \bibitem{}
 Dawdy, P. (2007). "The ZyprexaKills Memos." _FuriousSeasons_. Retrieved April 19, 2010, from \url{https://web.archive.org/web/20121108111544/http://www.furiousseasons.com/zyprexadocs.html}. 
 
@@ -297,6 +298,11 @@ Dawdy, P. (2008). "The FDA (Finally) Responds (Sort of) to Questions about Pedia
 
 \bibitem{}
 Dawdy, P. (2009). "FDA Panel Recommends Approval of Antipsychotics for Kids Aged 10, Older." _Furious Seasons_, June 10. Retrieved July 19, 2015 from \url{https://web.archive.org/web/20121108111544/http://www.furiousseasons.com/archives/2009/06/fda_panel_recommends_approval_of_antipsychotics_for_kids_aged_10_older.html}.
+
+\bibitem{}
+Dawdy, P. (2012). "About." _FuriousSeasons_. Retrieved November, 2015, from \url{https://web.archive.org/web/20120501114536/http://www.furiousseasons.com/about.html}. 
+
+
 
 \bibitem{}
 Demause, L. (1982). _Foundations of Psychohistory_. New York: Creative Roots Pub. 
@@ -763,20 +769,20 @@ from \url{http://apps.who.int/medicinedocs/en/d/Js19032en/}.
 Melon, R. B. (2007). _Journey to the White Rose in Germany_. Dog Ear Publishing. p. 122.
 
 \bibitem{}
+Merikangas, K. R., He, J., Burstein, M., Swanson, S. A., Avenevoli, S., Cui, L., ... Swendsen, J. (2010). Lifetime Prevalence of Mental Disorders in US Adolescents: Results from the National Comorbidity Study-Adolescent Supplement (NCS-A). Journal of the American Academy of Child and Adolescent Psychiatry, 49(10), 980–989. \url{http://dx.doi.org/10.1016/j.jaac.2010.05.017}.
+
+\bibitem{}
 Metzl, J. (2010). _The Protest Psychosis: How Schizophrenia Became a Black Disease_. Beacon Press.
 
 \bibitem{}
-Metzl, J.M., H. Hansen H. (2014). Structural competency: theorizing a new medical engagement with 
-stigma and inequality. _Soc Sci Med. 2014_;103:126-33. 
+Metzl, J.M., H. Hansen H. (2014). Structural competency: theorizing a new medical engagement with stigma and inequality. _Soc Sci Med. 2014_;103:126-33.
+\bibitem{}
+Metzl, J. M., & MacLeish, K. T. (2015). Mental Illness, Mass Shootings, and the Politics of American Firearms. American Journal of Public Health, 105(2), 240–249. \url{http://doi.org/10.2105/AJPH.2014.302242}.
 
 \bibitem{}
-Midelfort, H. C. (2000). _A History of Madness in Sixteenth-Century Germany_. Stanford, 
-CA: Stanford University Press.
-
+Midelfort, H. C. (2000). _A History of Madness in Sixteenth-Century Germany_. Stanford, CA: Stanford University Press.
 \bibitem{}
-Mills, Mike (Director). (2007). _Does Your Soul Have a Cold?_ [Motion picture]. Rainbow Media: IFC 
-TV.
-
+Mills, Mike (Director). (2007). _Does Your Soul Have a Cold?_ [Motion picture]. Rainbow Media: IFC TV.
 \bibitem{}
 Mindfreedom Ineternational (2012). "About Us". [Website]. Available at: \url{http://www.mindfreedom.org/about-us}.
 
@@ -835,6 +841,9 @@ National Governors Association Center for Best Practices & Council of Chief Stat
 (2010). _Common Core State Standards_. Washington, DC: Authors.
 
 \bibitem{}
+National Resource Center on Psychiatric Advance Directives. [Website]. Retrieved November 27, 2015, from \url{http://www.nrc-pad.org/}
+
+\bibitem{}
 Neil, C. (1983, Winter). "David Oaks: Anti-Psychiatry Activist". _Phoenix Rising: The Voice of the 
 Psychiatrized_. Vol 3, No 3. Retrieved on July 11, 2015 from \url{http://www.psychiatricsurvivorarchives.com/phoenix/phoenix_rising_v3_n3.pdf}.
 
@@ -874,6 +883,9 @@ neuroimmune interactions. _Nature Reviews. Gastroenterology & Hepatology, 7_(3),
 \bibitem{}
 Olfson M, Blanco C, Liu S, Wang S, & Correll CU. (2012). National trends in the office-based 
 treatment of children, adolescents, and adults with antipsychotics. _Archives of General Psychiatry, 69_(12), 1247-1256. \url{http://doi.org/10.1001/archgenpsychiatry.2012.647}.
+
+\bibitem{}
+Olson, M, Seikkula, J. & Ziedonis, D. (2014). The key elements of dialogic practice in Open Dialogue. The University of Massachusetts Medical School. Worcester, MA.
 
 \bibitem{}
 Ong, W. (1982). _Orality and Literacy: The Technologizing of the Word_. New Accents Series. London and New York: Methuen.
@@ -1018,6 +1030,9 @@ Skinner, B. F. (1974). _About Behaviorism_. New York: Knopf Doubleday Publishing
 
 \bibitem{}
 Stanley, J. and B. Steinhardt (2003). "Bigger Monster, Weaker Chains: The Growth of an American Surveillance Society." _ACLU_, January 15. Retrieved July 11, 2015 from \url{http://www.aclu.org/privacy/gen/15162pub20030115.html}.
+
+\bibitem{}
+Stark, D. (2009). The Sense of Dissonance. Princeton University Press.
 
 \bibitem{}
 Stringaris, A., & Goodman, R. (2009). Longitudinal outcome of youth oppositionality: irritable, headstrong, and hurtful behaviors have distinctive predictions. _Journal of the American Academy of Child and Adolescent Psychiatry, 48_(4), 404-412. \url{http://doi.org/10.1097/CHI.0b013e3181984f30}.
