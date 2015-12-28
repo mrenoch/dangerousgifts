@@ -82,6 +82,8 @@ Arendt, H. (1968). "What is Freedom?" In:_Between past and future_. New York: Th
 Arnold, L. E., Lofthouse, N., & Hurt, E. (2012). Artificial Food Colors and Attention-
 Deficit/Hyperactivity Symptoms: Conclusions to Dye for. _Neurotherapeutics_, 9(3), 599-609. \url{http://doi.org/10.1007/s13311-012-0133-x}.
 
+Autistic Self Advocacy Network. (n.d.). "Our History". [Website]. Retrieved November 28, 2015, from \url{http://autisticadvocacy.org/home/about-asan/our-history/}.
+
 \bibitem{}
 Axelson, D. A., Birmaher, B., Findling, R. L., Fristad, M. A., Kowatch, R. A., Youngstrom, E. A., ... 
 Diler, R. S. (2011). Concerns Regarding the Inclusion of Temper Dysregulation Disorder With Dysphoria in the Diagnostic and Statistical Manual of Mental Disorders, Fifth Edition. _The Journal of Clinical Psychiatry_, 72(9), 1257-1262. \url{http://doi.org/10.4088/JCP.10com06220}.
@@ -102,6 +104,12 @@ Benkler, Y. (2006). _The Wealth of Networks: How Social Production Transforms Ma
 \bibitem{}
 Berger, D. (2005, September). "Antidepressant clinical development in Japan: Current perspectives and 
 future horizons". _Clinical Research Focus_ 16 (7): 32-5.
+
+\bibitem{}
+Berenson, A. (2007, January 5). Lilly Settles With 18,000 Over Zyprexa. _The New York Times_. Retrieved from \url{http://query.nytimes.com/gst/fullpage.html}.
+
+\bibitem{}
+Bickenbach, J. E., Chatterji, S., Badley, E. M., & Üstün, T. B. (1999). Models of disablement, universalism and the international classification of impairments, disabilities and handicaps. Social Science & Medicine, 48(9), 1173–1187. \url{http://doi.org/10.1016/S0277-9536(98)00441-9}.
 
 \bibitem{}
 Big Screen Little Screen. (2007, October 8). "Interview: Director Mike Mills on "Does Your Soul Have 
@@ -281,14 +289,16 @@ Antipsychotics: Safety, Effectiveness, and Policy Challenges." _Health Affairs_ 
 \url{http://doi.org/10.1377/hlthaff.28.5.w770}.
 
 \bibitem{}
+Diament, M. (2010). "Senate Confirms Controversial Autism Self-Advocate To National Disability Council." _Disability Scoop_. [Weblog]. Retrieved from \url{https://www.disabilityscoop.com/2010/06/22/neeman-confirmation/9133/}
+
+\bibitem{}
 DasGupta, S. (2008). Narrative humility. _Lancet_, 22(371), 980e981.
 
 \bibitem{}
 Davey, G. (2014, November 27). Understanding Psychosis and Schizophrenia. _Psychology Today_. Retrieved June 23, 2015, from \url{http://www.psychologytoday.com/blog/why-we-worry/201411/understanding-psychosis-and-schizophrenia}.
 
 \bibitem{}
-Davis, L. J. (1997). _The Disability Studies Reader_. New York: Routledge. 
-
+Davis, L. J. (1997). "Constructing Normalcy". In Davis (ed) _The Disability Studies Reader_. New York: Routledge. 
 
 \bibitem{}
 Dawdy, P. (2007). "The ZyprexaKills Memos." _FuriousSeasons_. Retrieved April 19, 2010, from \url{https://web.archive.org/web/20121108111544/http://www.furiousseasons.com/zyprexadocs.html}. 
@@ -351,6 +361,9 @@ Elliott, C. (2010, September 12). The Secret Lives of Big Pharma's "Thought Lead
 
 \bibitem{}
 Ellin, A. (2011, June 3). When a Child's Anxieties Need Sorting. _The New York Times_. Retrieved on June 24, 2015 from \url{http://www.nytimes.com/2011/06/05/fashion/when-a-childs-anxieties-need-sorting.html}.
+
+\bibitem{}
+Epstein, S. (1996). Impure Science: AIDS, Activism, and the Politics of Knowledge. University of California Press.
 
 \bibitem{}
 Evans, E. and Moses, J. (2011). "Interview with David Graeber", _The White Review_, Available at: \url{http://www.thewhitereview.org/interviews/interview-with-david-graeber}.
@@ -466,6 +479,9 @@ Hall, W. (2008). "First Aid for Emotional Trauma - handout". Retrieved July 19, 
 \url{http://www.theicarusproject.net/alternative-treatments/first-aid-for-emotional-trauma-handout}.
 
 \bibitem{}
+Hall, W. (2009) "Autism Self Advocacy: Ari Ne'eman". _Madness Radio_. [Interview] Retrieved from \url{http://www.madnessradio.net/madness-radio-autism-self-advocacy-ari-neeman/}
+
+\bibitem{}
 Halperin, D. (1995). _Saint Foucault: Towards a Gay Hagiography_ (1 edition). New York: Oxford University Press.
 
 \bibitem{}
@@ -503,6 +519,9 @@ Retrieved from \url{http://www.nytimes.com/2010/04/18/magazine/18fob-Medium-t.ht
 
 \bibitem{}
 Heavy, S. (2009). "US Panel Cautiously OKs Antipsychotic Drugs for Kids." _Reuters News_, June 10. Retrieved July 19, 2015 from \url{http://www.reuters.com/article/idUSN1046473820090610}.
+
+\bibitem{}
+Heim, J. (2015). Just Asking: Ari Ne'eman, co-founder of the Autistic Self Advocacy Network. _The Washington Post_, .March 5. Retrieved from \url{https://www.washingtonpost.com/lifestyle/magazine/just-asking-ari-neeman-co-founder-of-the-autistic-self-advocacy-network/2015/03/05/ccb87f44-b2e1-11e4-854b-a38d13486ba1_story.html}
 
 \bibitem{}
 Herzberg, D. (2008). _Happy Pills in America: From Miltown to Prozac_. Baltimore: The Johns Hopkins University Press.
@@ -644,11 +663,18 @@ Krameddine, Y. I., & Silverstone, P. H. (2015). How to Improve Interactions betw
 Mentally Ill. _Frontiers in Psychiatry_, 5. \url{http://doi.org/10.3389/fpsyt.2014.00186}.
 
 \bibitem{}
+Kuhn, T. S. (1962). _The structure of scientific revolutions_. Chicago: University of Chicago Press.
+
+\bibitem{}
 Kurcinka, M. S. (1998). _Raising your Spirited Child: A Guide for Parents whose Child is more Intense,
  	Sensitive, Perceptive, Persistent, Energetic_. New York: Harper Paperbacks. 
 
 \bibitem{}
 Kweskin, S. (2010). "Senator Charles Grassley Broadens Investigation of Potential Conflicts of Interest." _Psychiatric Times_, January 29. Retrieved July 19, 2015 from \url{http://www.psychiatrictimes.com/display/article/10168/1516707?verify=0}.
+
+\bibitem{}
+Ladd, P. (2003). _Understanding Deaf Culture: In Search of Deafhood_. Multilingual Matters.
+
 
 \bibitem{}
 Laing, R. D. (1967). _Politics of Experience_. New York, NY: Pantheon.
@@ -664,6 +690,9 @@ Lane, C. (2008). _Shyness: How Normal Behavior Became a Sickness_. New Haven, CT
 
 \bibitem{}
 Lane, C. (2009). 'The Bipolar Child is a Purely American Phenomenon': An Interview with Philip Dawdy. _Psychology Today_, April 7. Retrieved on July 31, 2011 from \url{http://www.psychologytoday.com/blog/side-effects/200904/the-bipolar-child-is-purely-american-phenomenon-interview-philip-dawdy}.
+
+\bibitem{}
+Latour, B. (1993). _The Pasteurization of France_. Harvard University Press.
 
 \bibitem{}
 Latour, B. (2004). _Politics of Nature: How to Bring the Sciences into Democracy_. Cambridge, MA: Harvard University Press. 
@@ -798,6 +827,9 @@ MindMoodNews/dsm-millions-diagnosed-mental-illness/story?id=15556263}.
 Mollison, B. (1997). _Introduction to Permaculture_. Tyalgum, Australia: Tagari Publications.
 
 \bibitem{}
+Moore, T. J., Glenmullen, J., & Furberg, C. D. (2010). Prescription Drugs Associated with Reports of Violence Towards Others. _PLoS ONE_, 5(12), e15337. \url{http://doi.org/10.1371/journal.pone.0015337}.
+
+\bibitem{}
 Moreno C, Laje G, Blanco C, Jiang H, Schmidt AB, & Olfson M. (2007). National trends in the outpatient diagnosis and treatment of bipolar disorder in youth. _Archives of General Psychiatry, 64_(9), 1032-1039. \url{http://doi.org/10.1001/archpsyc.64.9.1032}.
 
 \bibitem{}
@@ -897,6 +929,9 @@ O'Reilly, T. (2005, September 30). "What Is Web 2.0?". [Web log]. Retrieved July
 Orwell, G. (1961). _1984_. New York: New American Library.
 
 \bibitem{}
+Padden, C., & Humphries, T. (2005). _Inside Deaf Culture_. Harvard University Press.
+
+\bibitem{}
 Papolos, D. , and Papolos, J. (2000). _The Bipolar Child: The Definitive and Reassuring Guide to Childhood's Most Misunderstood Disorder_. New York: Broadway.
 
 \bibitem{}
@@ -987,6 +1022,9 @@ Satel, S. (2013). "Why the Fuss Over the D.S.M.-5?" _The New York Times_, May 11
 Satel SL & Redding RE. (2005). Sociopolitical trends in mental health care: the consumer/survivor movement and multiculturalism, in Kaplan and Sadock's _Comprehensive Textbook of Psychiatry_, 8th ed. Edited by Sadock BJ, Sadock VA. Philadelphia, Pa, Lippincott Williams and Wilkins.
 
 \bibitem{}
+Schulz, K. (2004, August 22). "Did Antidepressants Depress Japan?" _The New York Times_. Retrieved from \url{http://www.nytimes.com/2004/08/22/magazine/did-antidepressants-depress-japan.html}.
+
+\bibitem{}
 Seidman, L. (2012, May 6). _Alterations in Working and Declarative Memory Circuitry in the Psychosis Prodrome_. Paper presented at the meeting of the American Psychiatric Association, Philadelphia, PA.
 
 \bibitem{}
@@ -1003,10 +1041,14 @@ York: Penguin Books.
 Shekelle, P., M. Maglione, S. Bagley, M. Suttorp, W. A. Mojica, J. Carter, C. Rolon, L. Hilton, A. Zhou, S. Chen, and P. Glassman (2007). "Comparative Effectiveness of Off-label Use of Atypical Antipsychotics." _Comparative Effectiveness Review 6_, January. (Prepared by the Southern California/RAND Evidence-based Practice Center under Contract No. 290-02-0003.) Rockville, MD: Agency for Healthcare Research and Quality. Retrieved June 27, 2015, from \url{http://www.effectivehealthcare.ahrq.gov/reports/final.cfm}.
 
 \bibitem{}
-Schulz, K. (2004, August 22). "Did Antidepressants Depress Japan?" _The New York Times_. Retrieved from \url{http://www.nytimes.com/2004/08/22/magazine/did-antidepressants-depress-japan.html}.
+Sigal, C. (1976). _Zone of the interior_ (First Edition edition). New York: Crowell.
 
 \bibitem{}
-Sigal, C. (1976). _Zone of the interior_ (First Edition edition). New York: Crowell.
+Simon, C. C. (2013, November 1). Disability Studies: A New Normal. The New York Times. Retrieved from http://www.nytimes.com/2013/11/03/education/edlife disability-studies-a-new-normal.html
+
+\bibitem{}
+Society for Social Studies of Science. (n.d.). "The Society". Retrieved December 27, 2015, from \url{http://www.4sonline.org/society}.
+
 
 \bibitem{}
 Solms, M., & Turnbull, O. (2002). _The brain and the inner world_. New York: Other Press. pp. 117, 312.
@@ -1157,6 +1199,10 @@ The United States Department of Justice, Office of Public Affairs. (2012, July 2
 The United States Department of Justice, Office of Public Affairs. (2013, November 4). Johnson \& Johnson to Pay More Than \$2.2 Billion to Resolve Criminal and Civil Investigations. [Press release]. Retrieved on June 23, 2015 from \url{http://www.justice.gov/opa/pr/johnson-johnson-pay-more-22-billion-resolve-criminal-and-civil-investigations}. 
 
 \bibitem{}
+Tucker, B. P. (1998). Deaf Culture, Cochlear Implants, and Elective Disability. _Hastings Center Report_, 28(4), 6–14. \url{http://doi.org 10.2307/3528607}
+
+
+\bibitem{}
 \"Ucok, A., and W. Gaebel (2008). "Side Effects of Atypical Antipsychotics: A Brief Overview." _World Psychiatry 7_(1): 58-62.
 
 \bibitem{}
@@ -1212,6 +1258,9 @@ Woman Overjoyed By Giant Uterine Parasite. (2007, August 27). Retrieved May 25, 
 
 \bibitem{}
 Wood, S., \& Lowes, R. (2010, October 22). Psychiatrists Dominate "Doctor-Dollars" Database Listing Big Pharma Payments. Retrieved June 24, 2015, from \url{http://www.medscape.com/viewarticle/731028}.
+
+\bibitem{}
+Woodward, J. (1982). _How you gonna get to Heaven if you can't talk with Jesus: on depathologizing deafness_. Silver Spring, Md.: T.J. Publishers.
 
 \bibitem{}
 Wozniak, J., Beiderman, J., Kiely, K., Ablon, J. S., Faraone, S. V., Mundy, E., \& Mennin, D. (1995). Mania-Like Symptoms Suggestive of Childhood-Onset Bipolar Disorder in Clinically Referred Children. _Journal of the American Academy of Child \& Adolescent Psychiatry, 34_(7), 867-876. \url{http://doi.org/10.1097/00004583-199507000-00010}.

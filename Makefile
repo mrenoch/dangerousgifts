@@ -1,7 +1,7 @@
 diss: 
 	pdflatex dangerousgifts-master.tex 
 	pdflatex dangerousgifts-master.tex 
-	mv dangerousgifts-master.pdf dangerousgifts_jbossewitch.pdf
+	mv dangerousgifts-master.pdf dangerousgifts_jbossewitch_revisions.pdf
 
 all: content/all-chapters.md
 	pandoc -f markdown_mmd -t latex  content/all-chapters.md > content/all-chapters.tex
