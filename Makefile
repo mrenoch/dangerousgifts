@@ -9,6 +9,10 @@ all: content/all-chapters.md
 refs: content/references.md
 	pandoc  -f markdown_mmd -t latex  content/references.md > content/references.tex
 
+generate-diffs:
+	latexdiff --verbose --ignore-warnings content/all-chapters_distribution.tex content/all-chapters_revisions.tex > content/all-chapters_show_revisions.tex
+	latexdiff --verbose --ignore-warnings content/references_distribution.tex content/references_revisions.tex > content/references_show_revisions.tex
+
 chaps: chap1 chap2 chap3 chap4 chap5 chap6 refs
 
 chap1: content/chapter01-introduction.md
