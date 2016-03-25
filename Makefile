@@ -1,13 +1,16 @@
 diss: 
 	pdflatex dangerousgifts-master.tex 
 	pdflatex dangerousgifts-master.tex 
-	mv dangerousgifts-master.pdf dangerousgifts_jbossewitch_revisions.pdf
+	mv dangerousgifts-master.pdf dangerousgifts_jbossewitch_prep.pdf
 
 all: content/all-chapters.md
 	pandoc -f markdown_mmd -t latex  content/all-chapters.md > content/all-chapters.tex
 
 refs: content/references.md
 	pandoc  -f markdown_mmd -t latex  content/references.md > content/references.tex
+
+acks: content/acknowledgements.md
+	pandoc  -f markdown_mmd -t latex  content/acknowledgements.md > content/acknowledgements.tex
 
 generate-diffs:
 	latexdiff --verbose --ignore-warnings content/all-chapters_distribution.tex content/all-chapters_revisions.tex > content/all-chapters_show_revisions.tex
