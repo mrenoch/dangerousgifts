@@ -395,8 +395,10 @@
 %
 \fancypagestyle{plain}{%
 	\fancyhf{}
-	\fancyfootoffset[OR]{4ex}
-	\fancyfoot[OR]{%
+        % right/left footers
+	%\fancyfootoffset[OR]{4ex}
+	%\fancyfaoot[OR]{%
+	\fancyfaoot[OC]{%
 		{\ }\tgherosfont%
 		{\color{ctcolorfooterline}\rule[-90pt]{1.25pt}{100pt}}%
 		\hspace*{10pt}\begin{minipage}[b]{1.5cm}%
@@ -418,8 +420,10 @@
 \fancypagestyle{maincontentstyle}{%
 	\pagestyle{plain}
 	\fancyhf{}
-	\fancyfootoffset[OR]{4ex}
-	\fancyfoot[OR]{%
+        % right/left footers
+	%\fancyfootoffset[OR]{4ex}
+	%\fancyfoot[OR]{%
+	\fancyfoot[OC]{%
 		{\ }\tgherosfont\footnotesize%
 		\rightmark%
 		\hspace*{10pt}{\color{ctcolorfooterline}\rule[-90pt]{1.25pt}{100pt}}%

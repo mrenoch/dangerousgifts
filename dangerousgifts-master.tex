@@ -4,9 +4,10 @@
 % **************************************************
 \documentclass[%
 	paper=letterpaper,			% paper size --> letterpaper is default in US
-	twoside=true,				% onesite or twoside printing
+%	twoside=true,				% onesite or twoside printing
+        twoside=false,
 	openright,					% doublepage cleaning ends up right side
-%	parskip=full,				% spacing value / method for paragraphs
+	parskip=never,				% spacing value / method for paragraphs
 	chapterprefix=true,			% prefix for chapter marks
 	12pt,						% font size
 	headings=normal,			% size of headings
@@ -17,6 +18,7 @@
 	draft=false,				% value for draft version
 ]{scrreprt}%
 
+% added by jsb to support latexdiff
 %DIF PREAMBLE EXTENSION ADDED BY LATEXDIFF
 %DIF UNDERLINE PREAMBLE %DIF PREAMBLE
 \RequirePackage[normalem]{ulem} %DIF PREAMBLE
@@ -144,14 +146,16 @@
 % --------------------------
 \setstretch{1.2}
 \pagestyle{empty}				% no header or footers
-\input{content/titlepages}		% INCLUDE: all titlepages
+\input{content/titlepages_deposit}		% INCLUDE: all titlepages
 \cleardoublepage
 				
 \input{content/copyright}		% INCLUDE: the abstracts (english and german)
 \cleardoublepage
 
+\setstretch{2.0}
 \input{content/abstract}		% INCLUDE: the abstracts (english and german)
 \cleardoublepage
+\setstretch{1.2}
 
 % --------------------------
 % Prefatory Pages/
@@ -165,7 +169,7 @@
 \cleardoublepage
 
 %
-\input{content/acknowledgement} % INCLUDE: acknowledgement
+\input{content/acknowledgements} % INCLUDE: acknowledgement
 \cleardoublepage
 %
 \input{content/dedication} % INCLUDE: acknowledgement
